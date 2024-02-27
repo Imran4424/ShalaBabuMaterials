@@ -14,9 +14,12 @@ print()
 
 
 # swaping values
-x, y = y, x
+x = x + y # assigning sum of x + y to x
+y = x - y # if now x holds sum, then y = x - y = old(x + y) - y
+x = x - y # since, now y holds previous x, then x = x - y = old(x + y) - old (x)
 
 # after swap
 print("After swap")
 print("X: ", x)
 print("Y: ", y)
+

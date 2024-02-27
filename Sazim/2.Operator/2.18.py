@@ -1,5 +1,5 @@
 
-# 2.19. Write a program to swap the values of two variables without using temporary variable
+# 2.18. Write a program to swap the values of two variables using temporary variable
 
 x = int(input("enter an int variable: "))
 y = int(input("enter another int variable: "))
@@ -14,9 +14,12 @@ print()
 
 
 # swaping values
-x, y = y, x
+temp = x # assigning x to temp
+x = y # assigning y to x
+y = temp # assigning temp to y
 
 # after swap
 print("After swap")
 print("X: ", x)
 print("Y: ", y)
+
