@@ -5,7 +5,8 @@ x = int(input("enter an int number: "))
  
 y = int(input("enter the second int number: "))
  
-bitwiseAnd = x & y
+# bitwiseAnd = x & y
+
  
 print("bitwise and of entered numbers:", bitwiseAnd)
 
@@ -19,4 +20,3 @@ print("bitwise and of entered numbers:", bitwiseAnd)
 
 
 # Binary numbers
-# 
